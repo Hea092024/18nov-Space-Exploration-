@@ -14,5 +14,7 @@ body{
 
 .btn {
     
-    
+    padding: 6px 12px;
+    background: white;
+    border: none;
 }
