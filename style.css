@@ -18,3 +18,7 @@ body{
     border: none;
 font-family: "Orbitron", sans-serif;
 }
+
+.span{
+    border-bottom: 2px solid white;
+}
