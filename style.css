@@ -1,11 +1,14 @@
-
+@font-face {
+    font-family: Space;
+    src: url(./assets/space-font.ttf);
+}
 
 body{
     background-image: url(./assets/Universe.jpg);
     background-size: cover;
     color: white;
     text-align: center;
-    font-family: "Orbitron", sans-serif;
+    font-family: space, sans-serif ;
 }
 
 .btn {
