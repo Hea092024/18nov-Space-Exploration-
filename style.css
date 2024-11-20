@@ -3,12 +3,18 @@
     src: url(./assets/space-font.ttf);
 }
 
-body{
-    background-image: url(./assets/Universe.jpg);
+html ,body{
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     font-family: space, sans-serif ;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
 }
 
 .btn {
@@ -25,3 +31,46 @@ font-family: "Orbitron", sans-serif;
 
 #space-logo{
     width: 100px;}
+
+@media (max-width: 767px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: white;
+        text-align: center;
+        font-family: Space, sans-serif;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        background: white;
+        border: none;
+        font-family: "Orbitron", sans-serif;
+    }
+
+    .span {
+        border-bottom: 2px solid white;
+    }
+
+    #space-logo {
+        width: 80px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
