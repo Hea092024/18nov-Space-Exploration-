@@ -4,28 +4,25 @@
 }
 
 html ,body{
-    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: white;
+   color: #82a5ca;
     text-align: center;
-    font-family: space, sans-serif ;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    color: #82a5ca;
-    
+    font-family: 'Orbitron', sans-serif;
     
 }
 
+#hero { background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
+   background-size: cover;
+   padding: 10px 0 50px 0;
+}
 .btn {
     
-    padding: 6px 12px;
+    padding: 8px 12px;
     background: white;
     border: none;
 font-family: "Orbitron", sans-serif;
 color: #82a5ca;
 font-size: 1.2rem;
+font-weight: bold;
 }
 
 #space-logo{
@@ -36,13 +33,20 @@ font-size: 1.2rem;
         height: 100%;
         margin: 0;
         padding: 0;
-        background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
         color: white;
         text-align: center;
         font-family: Space, sans-serif;
+    }
+
+    #hero {
+        background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm92ZzQ4Z2k5ZmR2OGMyNWRqOWw1NzhhNDlnM2VtaXo3bm5jMWJ3bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center center;
     }
 
     h1 {
