@@ -13,6 +13,7 @@ html ,body{
     height: 100%;
     margin: 0;
     padding: 0;
+    color: #82a5ca;
     
     
 }
@@ -23,6 +24,8 @@ html ,body{
     background: white;
     border: none;
 font-family: "Orbitron", sans-serif;
+color: #82a5ca;
+font-size: 1.2rem;
 }
 
 #space-logo{
@@ -52,6 +55,7 @@ font-family: "Orbitron", sans-serif;
         background: white;
         border: none;
         font-family: "Orbitron", sans-serif;
+        font-size: 1.2rem;
     }
 
     .span {
